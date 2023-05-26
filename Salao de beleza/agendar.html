@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Página de Agendamento</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="CSS/agendar.css">
+</head>
+<body>
+  <h1>Agendamento de Atendimentos</h1>
+  
+  <div class="calendario">
+    <div class="calendario-header">
+      <h2>Maio 2023</h2>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>D</th>
+          <th>S</th>
+          <th>T</th>
+          <th>Q</th>
+          <th>Q</th>
+          <th>S</th>
+          <th>S</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+          <td>31</td>
+          <td>1</td>
+        </tr>
+        <!-- Restante dos dias do mês -->
+      </tbody>
+    </table>
+  </div>
+
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome">
+
+    <label for="telefone">Telefone:</label>
+    <input type="text" id="telefone" name="telefone">
+
+    <input type="submit" value="Agendar">
+
+  </form>
+
+  <div class="voltar">
+    <a href="index.html" class="botao-voltar">Voltar</a>
+  </div>
+
+</body>
+</html>

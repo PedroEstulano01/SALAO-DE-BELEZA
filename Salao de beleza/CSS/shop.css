@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+    color: #020505
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffc0cb; /* Cor rosa sólida para o fundo */
+
+  
+  }
+  
+  nav {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-link {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10%;
+
+  }
+  
+  .menu-link li {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 30px;
+  }
+  
+  .menu-link li:last-child {
+    margin-right: 0;
+    border-radius: 30px;
+  }
+  
+  .menu-link a {
+    text-decoration: none;
+    color: rgb(87, 12, 74);
+    padding: 5px 10px;
+    transition: .4s;
+    font-family: "Josefin Sans", sans-serif;;
+  }
+  
+  .menu-link a:hover {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.2);
+    border-radius: 30px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  
+  h1{
+    color: #fff;
+}
+  
+  .container-produtos {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .linha-produtos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .produto {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .produto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .produto h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .produto p {
+    font-size: 14px;
+  }
+
+
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 40px; 
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+

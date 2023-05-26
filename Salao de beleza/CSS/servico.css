@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+    color: #020505
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5abdc;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .menu-link {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10%;
+  }
+  
+  .menu-link li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .menu-link li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu-link a {
+    text-decoration: none;
+    color: rgb(87, 12, 74);
+    padding: 5px 10px;
+    transition: .4s;
+    font-family: "Josefin Sans", sans-serif;;
+  }
+  
+  .menu-link a:hover {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.2);
+  }
+
+  
+  .servicos-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .servico {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(32, 170, 235, 0.2);
+    background-image: url(../imagens/padrao-de-salao-de-beleza-desenhado-a-mao.jpg);
+  }
+  
+  .servico h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .servico p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+h1{
+    color: #fff;
+}
+
+.voltar {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f085ea;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .botao:hover {
+    background-color: #fa5fc6;
+  }
+
+ 
